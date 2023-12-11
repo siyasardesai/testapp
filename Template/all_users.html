@@ -1,0 +1,10 @@
+<html>
+    <body>
+        <h1>Members</h1>
+        <ul>
+            {% for x in myusers %}
+              <li>{{x.firstname}} {{x.lastname}}</li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
